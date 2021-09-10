@@ -18,7 +18,7 @@ Recipes Management App is a simple web application to List your recipe in order 
 ### Features
 * C R U D
 * Add new Recipe 
-* Recipe  Contact 
+* Update Recipe  
 * Delete single Recipe 
 * Delete all Recipe 
 
