@@ -16,11 +16,11 @@ This App is deployed on Netlify : [Project](https://recipesmanagements.netlify.a
 Recipes Management App is a simple web application to List your recipe in order not to miss anything.
 
 ### Features
-* Add new Contact 
-* Set Contact priority
-* Edit Contact 
-* Delete single Contact 
-* Delete all Contact 
+* C R U D
+* Add new Recipe 
+* Recipe  Contact 
+* Delete single Recipe 
+* Delete all Recipe 
 
 ### Technologies used:
 * HTML
