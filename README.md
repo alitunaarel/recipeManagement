@@ -9,7 +9,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Deployment
 
-This App is deployed on Netlify : [Project](https://)
+This App is deployed on Netlify : [Project](https://recipesmanagements.netlify.app/)
 
 ## Contact List
 
@@ -29,4 +29,4 @@ Recipes Management App is a simple web application to List your recipe in order 
 * Netlify
 
 ### App demo
-Deployed on Netlify,  [Click to see it](https:///)
+Deployed on Netlify,  [Click to see it](https://recipesmanagements.netlify.app/)
