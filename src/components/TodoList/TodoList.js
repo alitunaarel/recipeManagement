@@ -4,6 +4,9 @@ import { useSelector, useDispatch } from 'react-redux';
 import { restoreTodo, clearTodos, todoSelectors } from '../../store/todoSlice';
 import Todo from './Todo/Todo.js';
 
+import Button from '@material-ui/core/Button';
+import DeleteIcon from '@material-ui/icons/Delete';
+
 const TodoList = () => {
     const dispatch = useDispatch();
     const allTodos = useSelector(todoSelectors.selectEntities);
@@ -44,9 +47,18 @@ const TodoList = () => {
         <div className='todo-list'>
             <h3>Your Ingredients:</h3>
             <h4>Total Ingredients: {todoCount}</h4>
-            <button className='delete-btn' onClick={clearList}>
+
+
+            <Button onClick={clearList}
+                variant="contained"
+                color="secondary"
+                startIcon={<DeleteIcon />}
+            >
                 Clear All Ingredients
-            </button>
+            </Button>
+
+
+
             <div>{todoList}</div>
             <h3>Deleted:</h3>
             <div>{deletedList}</div>

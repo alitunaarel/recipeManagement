@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { addTodo, addTodos } from '../../store/todoSlice';
 import { nanoid } from '@reduxjs/toolkit';
+import Button from '@material-ui/core/Button';
+import AddIcon from '@material-ui/icons/Add';
+
+
+
 
 const AddTodo = () => {
     const dispatch = useDispatch();
@@ -27,7 +32,12 @@ const AddTodo = () => {
                 <i>eg: Eggs, Bread, Ham, Cheese</i>
             </p>
             <input value={text} onChange={(e) => setText(e.target.value)} />
-            <button onClick={submit}>Add Ingredients</button>
+
+
+
+            <Button variant="contained" onClick={submit}><AddIcon />Add Ingredients</Button>
+
+
         </div>
     );
 };

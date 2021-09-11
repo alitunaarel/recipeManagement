@@ -11,7 +11,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 This App is deployed on Netlify : [Project](https://recipesmanagements.netlify.app/)
 
-## Contact List
+## Recipe List
 
 Recipes Management App is a simple web application to List your recipe in order not to miss anything.
 
@@ -26,7 +26,9 @@ Recipes Management App is a simple web application to List your recipe in order 
 * HTML
 * CSS
 * JavaScript/React.js
+* MongoDb/Node.js
 * Netlify
+* React Redux Toolkit(state managemen)
 
 ### App demo
 Deployed on Netlify,  [Click to see it](https://recipesmanagements.netlify.app/)
